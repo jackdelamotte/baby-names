@@ -15,11 +15,6 @@ def main():
                                         & (national_names['Year'] < 1990)
                                     ]
     
-
-    tiffany_names.drop('Id', axis=1, inplace=True)
-    tiffany_names.drop('Name', axis=1, inplace=True)
-    tiffany_names.drop('Gender', axis=1, inplace=True)
-    
     tiffany_names.head()
 
     x_axis = tiffany_names['Year']
@@ -41,11 +36,6 @@ def main():
                                             & (state_names['State'] == 'NY')
                                         ]
     
-    tiffany_state_names.drop('Id', axis=1, inplace=True)
-    tiffany_state_names.drop('Name', axis=1, inplace=True)
-    tiffany_state_names.drop('Gender', axis=1, inplace=True)
-    tiffany_state_names.drop('State', axis=1, inplace=True)
-    
     tiffany_state_names.head()
 
     x_axis = tiffany_state_names['Year']
@@ -65,10 +55,6 @@ def main():
                                         & (national_names['Year'] > 1980)
                                         & (national_names['Year'] < 2014)
                                     ]
-    
-    kobe_names.drop('Id', axis=1, inplace=True)
-    kobe_names.drop('Name', axis=1, inplace=True)
-    kobe_names.drop('Gender', axis=1, inplace=True)
     
     kobe_names.head()
 
@@ -90,11 +76,6 @@ def main():
                                             & (state_names['Year'] < 2014)
                                             & (state_names['State'] == 'NY')
                                         ]
-    
-    kobe_state_names.drop('Id', axis=1, inplace=True)
-    kobe_state_names.drop('Name', axis=1, inplace=True)
-    kobe_state_names.drop('Gender', axis=1, inplace=True)
-    kobe_state_names.drop('State', axis=1, inplace=True)
     
     kobe_state_names.head()
 
