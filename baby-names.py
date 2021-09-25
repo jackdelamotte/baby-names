@@ -70,11 +70,11 @@ def main():
     plt.show()  
 
     kobe_state_names = state_names[
-                                            (state_names['Name'] == 'Tiffany') 
-                                            & (state_names['Gender'] == 'F')
+                                            (state_names['Name'] == 'Kobe') 
+                                            & (state_names['Gender'] == 'M')
                                             & (state_names['Year'] > 1980)
                                             & (state_names['Year'] < 2014)
-                                            & (state_names['State'] == 'NY')
+                                            & (state_names['State'] == 'CA')
                                         ]
     
     kobe_state_names.head()
