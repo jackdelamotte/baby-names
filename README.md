@@ -15,3 +15,5 @@ pip install matplotlib
 ```
 
 We are only turning in one python script which handles the computations and plotting for all three of our queries.
+
+Expect an error if you don't have the two data files in your working directory.
